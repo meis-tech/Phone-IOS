@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16E52C63E8C99874D6F5839A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1265F5D3B246EF643E813688 /* libPods.a */; };
+		B2BA8DCE1C23C5490013DFD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BA8DCD1C23C5490013DFD5 /* main.m */; };
+		B2BA8DD11C23C5490013DFD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BA8DD01C23C5490013DFD5 /* AppDelegate.m */; };
+		B2BA8DD41C23C5490013DFD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BA8DD31C23C5490013DFD5 /* ViewController.m */; };
+		B2BA8DD71C23C5490013DFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BA8DD51C23C5490013DFD5 /* Main.storyboard */; };
+		B2BA8DD91C23C5490013DFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2BA8DD81C23C5490013DFD5 /* Assets.xcassets */; };
+		B2BA8DDC1C23C5490013DFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2BA8DDA1C23C5490013DFD5 /* LaunchScreen.storyboard */; };
+		B2BA8DE71C23C5490013DFD5 /* PrysmicPhoneIOS_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BA8DE61C23C5490013DFD5 /* PrysmicPhoneIOS_CTests.m */; };
+		B2BA8DF21C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2BA8DF11C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2BA8DE31C23C5490013DFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2BA8DC11C23C5490013DFD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2BA8DC81C23C5490013DFD5;
+			remoteInfo = PrysmicPhoneIOS_C;
+		};
+		B2BA8DEE1C23C5490013DFD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2BA8DC11C23C5490013DFD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2BA8DC81C23C5490013DFD5;
+			remoteInfo = PrysmicPhoneIOS_C;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1265F5D3B246EF643E813688 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A73450BA63F5E1532942A09 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		B2BA8DC91C23C5490013DFD5 /* PrysmicPhoneIOS_C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrysmicPhoneIOS_C.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BA8DCD1C23C5490013DFD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2BA8DCF1C23C5490013DFD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2BA8DD01C23C5490013DFD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2BA8DD21C23C5490013DFD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B2BA8DD31C23C5490013DFD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B2BA8DD61C23C5490013DFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2BA8DD81C23C5490013DFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2BA8DDB1C23C5490013DFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2BA8DDD1C23C5490013DFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2BA8DE21C23C5490013DFD5 /* PrysmicPhoneIOS_CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrysmicPhoneIOS_CTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BA8DE61C23C5490013DFD5 /* PrysmicPhoneIOS_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrysmicPhoneIOS_CTests.m; sourceTree = "<group>"; };
+		B2BA8DE81C23C5490013DFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2BA8DED1C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrysmicPhoneIOS_CUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2BA8DF11C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrysmicPhoneIOS_CUITests.m; sourceTree = "<group>"; };
+		B2BA8DF31C23C5490013DFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0253F3F988FE5CBADF4C7F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2BA8DC61C23C5490013DFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E52C63E8C99874D6F5839A /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BA8DDF1C23C5490013DFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BA8DEA1C23C5490013DFD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB10FF8D7BCA9BF3C99251F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A73450BA63F5E1532942A09 /* Pods.debug.xcconfig */,
+				E0253F3F988FE5CBADF4C7F7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		841375EED10469A679B4BC51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1265F5D3B246EF643E813688 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2BA8DC01C23C5490013DFD5 = {
+			isa = PBXGroup;
+			children = (
+				B2BA8DCB1C23C5490013DFD5 /* PrysmicPhoneIOS_C */,
+				B2BA8DE51C23C5490013DFD5 /* PrysmicPhoneIOS_CTests */,
+				B2BA8DF01C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests */,
+				B2BA8DCA1C23C5490013DFD5 /* Products */,
+				0DB10FF8D7BCA9BF3C99251F /* Pods */,
+				841375EED10469A679B4BC51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B2BA8DCA1C23C5490013DFD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2BA8DC91C23C5490013DFD5 /* PrysmicPhoneIOS_C.app */,
+				B2BA8DE21C23C5490013DFD5 /* PrysmicPhoneIOS_CTests.xctest */,
+				B2BA8DED1C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2BA8DCB1C23C5490013DFD5 /* PrysmicPhoneIOS_C */ = {
+			isa = PBXGroup;
+			children = (
+				B2BA8DCF1C23C5490013DFD5 /* AppDelegate.h */,
+				B2BA8DD01C23C5490013DFD5 /* AppDelegate.m */,
+				B2BA8DD21C23C5490013DFD5 /* ViewController.h */,
+				B2BA8DD31C23C5490013DFD5 /* ViewController.m */,
+				B2BA8DD51C23C5490013DFD5 /* Main.storyboard */,
+				B2BA8DD81C23C5490013DFD5 /* Assets.xcassets */,
+				B2BA8DDA1C23C5490013DFD5 /* LaunchScreen.storyboard */,
+				B2BA8DDD1C23C5490013DFD5 /* Info.plist */,
+				B2BA8DCC1C23C5490013DFD5 /* Supporting Files */,
+			);
+			path = PrysmicPhoneIOS_C;
+			sourceTree = "<group>";
+		};
+		B2BA8DCC1C23C5490013DFD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2BA8DCD1C23C5490013DFD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2BA8DE51C23C5490013DFD5 /* PrysmicPhoneIOS_CTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2BA8DE61C23C5490013DFD5 /* PrysmicPhoneIOS_CTests.m */,
+				B2BA8DE81C23C5490013DFD5 /* Info.plist */,
+			);
+			path = PrysmicPhoneIOS_CTests;
+			sourceTree = "<group>";
+		};
+		B2BA8DF01C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2BA8DF11C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests.m */,
+				B2BA8DF31C23C5490013DFD5 /* Info.plist */,
+			);
+			path = PrysmicPhoneIOS_CUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2BA8DC81C23C5490013DFD5 /* PrysmicPhoneIOS_C */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BA8DF61C23C5490013DFD5 /* Build configuration list for PBXNativeTarget "PrysmicPhoneIOS_C" */;
+			buildPhases = (
+				C52C9E203A4895DE62A95805 /* Check Pods Manifest.lock */,
+				B2BA8DC51C23C5490013DFD5 /* Sources */,
+				B2BA8DC61C23C5490013DFD5 /* Frameworks */,
+				B2BA8DC71C23C5490013DFD5 /* Resources */,
+				381B6BCFF275533AB08B789A /* Embed Pods Frameworks */,
+				1486998F46AE76E39E9CE1C8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrysmicPhoneIOS_C;
+			productName = PrysmicPhoneIOS_C;
+			productReference = B2BA8DC91C23C5490013DFD5 /* PrysmicPhoneIOS_C.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2BA8DE11C23C5490013DFD5 /* PrysmicPhoneIOS_CTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BA8DF91C23C5490013DFD5 /* Build configuration list for PBXNativeTarget "PrysmicPhoneIOS_CTests" */;
+			buildPhases = (
+				B2BA8DDE1C23C5490013DFD5 /* Sources */,
+				B2BA8DDF1C23C5490013DFD5 /* Frameworks */,
+				B2BA8DE01C23C5490013DFD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2BA8DE41C23C5490013DFD5 /* PBXTargetDependency */,
+			);
+			name = PrysmicPhoneIOS_CTests;
+			productName = PrysmicPhoneIOS_CTests;
+			productReference = B2BA8DE21C23C5490013DFD5 /* PrysmicPhoneIOS_CTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2BA8DEC1C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2BA8DFC1C23C5490013DFD5 /* Build configuration list for PBXNativeTarget "PrysmicPhoneIOS_CUITests" */;
+			buildPhases = (
+				B2BA8DE91C23C5490013DFD5 /* Sources */,
+				B2BA8DEA1C23C5490013DFD5 /* Frameworks */,
+				B2BA8DEB1C23C5490013DFD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2BA8DEF1C23C5490013DFD5 /* PBXTargetDependency */,
+			);
+			name = PrysmicPhoneIOS_CUITests;
+			productName = PrysmicPhoneIOS_CUITests;
+			productReference = B2BA8DED1C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2BA8DC11C23C5490013DFD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Daniel Chudy";
+				TargetAttributes = {
+					B2BA8DC81C23C5490013DFD5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = NNV3S68243;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					B2BA8DE11C23C5490013DFD5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TC773UYYYN;
+						TestTargetID = B2BA8DC81C23C5490013DFD5;
+					};
+					B2BA8DEC1C23C5490013DFD5 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = TC773UYYYN;
+						TestTargetID = B2BA8DC81C23C5490013DFD5;
+					};
+				};
+			};
+			buildConfigurationList = B2BA8DC41C23C5490013DFD5 /* Build configuration list for PBXProject "PrysmicPhoneIOS_C" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2BA8DC01C23C5490013DFD5;
+			productRefGroup = B2BA8DCA1C23C5490013DFD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2BA8DC81C23C5490013DFD5 /* PrysmicPhoneIOS_C */,
+				B2BA8DE11C23C5490013DFD5 /* PrysmicPhoneIOS_CTests */,
+				B2BA8DEC1C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2BA8DC71C23C5490013DFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BA8DDC1C23C5490013DFD5 /* LaunchScreen.storyboard in Resources */,
+				B2BA8DD91C23C5490013DFD5 /* Assets.xcassets in Resources */,
+				B2BA8DD71C23C5490013DFD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BA8DE01C23C5490013DFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BA8DEB1C23C5490013DFD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1486998F46AE76E39E9CE1C8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		381B6BCFF275533AB08B789A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C52C9E203A4895DE62A95805 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2BA8DC51C23C5490013DFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BA8DD41C23C5490013DFD5 /* ViewController.m in Sources */,
+				B2BA8DD11C23C5490013DFD5 /* AppDelegate.m in Sources */,
+				B2BA8DCE1C23C5490013DFD5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BA8DDE1C23C5490013DFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BA8DE71C23C5490013DFD5 /* PrysmicPhoneIOS_CTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2BA8DE91C23C5490013DFD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BA8DF21C23C5490013DFD5 /* PrysmicPhoneIOS_CUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2BA8DE41C23C5490013DFD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2BA8DC81C23C5490013DFD5 /* PrysmicPhoneIOS_C */;
+			targetProxy = B2BA8DE31C23C5490013DFD5 /* PBXContainerItemProxy */;
+		};
+		B2BA8DEF1C23C5490013DFD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2BA8DC81C23C5490013DFD5 /* PrysmicPhoneIOS_C */;
+			targetProxy = B2BA8DEE1C23C5490013DFD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2BA8DD51C23C5490013DFD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BA8DD61C23C5490013DFD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2BA8DDA1C23C5490013DFD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2BA8DDB1C23C5490013DFD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2BA8DF41C23C5490013DFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2BA8DF51C23C5490013DFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2BA8DF71C23C5490013DFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A73450BA63F5E1532942A09 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PrysmicPhoneIOS_C/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "meeis.PrysmicPhoneIOS-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2BA8DF81C23C5490013DFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0253F3F988FE5CBADF4C7F7 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PrysmicPhoneIOS_C/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "meeis.PrysmicPhoneIOS-C";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B2BA8DFA1C23C5490013DFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrysmicPhoneIOS_CTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "meis.PrysmicPhoneIOS-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrysmicPhoneIOS_C.app/PrysmicPhoneIOS_C";
+			};
+			name = Debug;
+		};
+		B2BA8DFB1C23C5490013DFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrysmicPhoneIOS_CTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "meis.PrysmicPhoneIOS-CTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrysmicPhoneIOS_C.app/PrysmicPhoneIOS_C";
+			};
+			name = Release;
+		};
+		B2BA8DFD1C23C5490013DFD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrysmicPhoneIOS_CUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "meis.PrysmicPhoneIOS-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrysmicPhoneIOS_C;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B2BA8DFE1C23C5490013DFD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrysmicPhoneIOS_CUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "meis.PrysmicPhoneIOS-CUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrysmicPhoneIOS_C;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2BA8DC41C23C5490013DFD5 /* Build configuration list for PBXProject "PrysmicPhoneIOS_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BA8DF41C23C5490013DFD5 /* Debug */,
+				B2BA8DF51C23C5490013DFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BA8DF61C23C5490013DFD5 /* Build configuration list for PBXNativeTarget "PrysmicPhoneIOS_C" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BA8DF71C23C5490013DFD5 /* Debug */,
+				B2BA8DF81C23C5490013DFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BA8DF91C23C5490013DFD5 /* Build configuration list for PBXNativeTarget "PrysmicPhoneIOS_CTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BA8DFA1C23C5490013DFD5 /* Debug */,
+				B2BA8DFB1C23C5490013DFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2BA8DFC1C23C5490013DFD5 /* Build configuration list for PBXNativeTarget "PrysmicPhoneIOS_CUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2BA8DFD1C23C5490013DFD5 /* Debug */,
+				B2BA8DFE1C23C5490013DFD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2BA8DC11C23C5490013DFD5 /* Project object */;
+}

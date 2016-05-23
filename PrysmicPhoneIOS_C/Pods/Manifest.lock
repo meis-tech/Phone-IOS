@@ -1,0 +1,10 @@
+PODS:
+  - Discovery (1.1.1)
+
+DEPENDENCIES:
+  - Discovery (~> 1.0)
+
+SPEC CHECKSUMS:
+  Discovery: f6b2f8e06104e9b0ffd64b9db37d875cbed27e92
+
+COCOAPODS: 0.39.0
